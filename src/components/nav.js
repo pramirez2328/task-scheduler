@@ -31,10 +31,7 @@ class Nav extends React.Component {
     const { message, author } = this.state;
 
     return (
-      <div
-        className="nav p-3 border border-dark"
-        style={{ backgroundColor: "aqua" }}
-      >
+      <div className="nav p-3 border border-dark rounded">
         <nav className="navbar w-100">
           <div className=" w-100">
             <h4 className="font-weight-light">{message}</h4>

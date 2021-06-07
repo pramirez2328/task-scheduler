@@ -1,0 +1,21 @@
+#navUl {
+  list-style-type: none;
+  padding: 0;
+}
+#title {
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1rem;
+}
+.nav {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    0px 37px 13px 29px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 37px 13px 29px rgba(0, 0, 0, 0);
+}
+
+#defaultCheck1 {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid #555;
+}
